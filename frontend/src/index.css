@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-background: #0a0a0f;
+  --color-surface: #14141d;
+  
+  --color-primary-light: #4ade80;
+  --color-primary: #22c55e;
+  --color-primary-dark: #16a34a;
+  
+  --color-osint: #3b82f6;
+  --color-humint: #f59e0b;
+  --color-imint: #ef4444;
+
+  --font-sans: "Inter", "system-ui", "sans-serif";
+  --font-mono: "JetBrains Mono", "monospace";
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: #e2e8f0; /* slate-200 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background: #0f172a;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 9999px;
+}
+
+.glass-panel {
+  background-color: rgba(20, 20, 29, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Social Media Ripple",
+        "sourceType": "OSINT",
+        "description": "Viral posts indicate a gathering at the town square.",
+        "latitude": 34.045,
+        "longitude": -118.245,
+        "confidence": 75,
+        "priority": "Low",
+        "tags": [
+            "social",
+            "crowd"
+        ]
+    },
+    {
+        "title": "Warehouse Entry",
+        "sourceType": "HUMINT",
+        "description": "Source reports entry through the side gate at 21:00.",
+        "latitude": 34.067,
+        "longitude": -118.261,
+        "confidence": 80,
+        "priority": "High",
+        "tags": [
+            "infiltration",
+            "warehouse"
+        ]
+    }
+]
