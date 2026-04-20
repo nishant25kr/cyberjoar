@@ -54,6 +54,3 @@ Intelligence records follow this structure:
 - `/backend`: Express API, Mongoose models, and upload handlers.
 - `/frontend`: React application, UI components, and Leaflet integration.
 - `/backend/src/uploads`: Local storage for uploaded intelligence assets.
-
-## 🛡 License
-MIT
